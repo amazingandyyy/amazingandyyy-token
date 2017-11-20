@@ -1,0 +1,24 @@
+{
+  "name": "AMAZINGANDYYYCrowdsale-erc20",
+  "version": "1.1.0",
+  "description": "ERC20 token for Amazingandyyy(AMAZINGANDYYYCrowdsale)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "rm -rf build && truffle compile && truffle migrate",
+    "migrate:r": "npm run migrate:rinkeby",
+    "migrate:rinkeby": "rm -rf build && truffle compile && truffle migrate --network rinkeby"
+  },
+  "keywords": [
+    "blockchain",
+    "erc20"
+  ],
+  "author": "amazingandyyy",
+  "license": "MIT",
+  "dependencies": {
+    "zeppelin-solidity": "git://github.com/OpenZeppelin/zeppelin-solidity.git#master"
+  },
+  "devDependencies": {
+    "truffle": "^4.0.1",
+    "web3": "^1.0.0-beta.24"
+  }
+}

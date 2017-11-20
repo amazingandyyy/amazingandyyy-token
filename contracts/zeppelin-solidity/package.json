@@ -1,0 +1,71 @@
+{
+  "_from": "git://github.com/OpenZeppelin/zeppelin-solidity.git#master",
+  "_id": "zeppelin-solidity@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-btO1LY1blrJay/5Q+4a9Ah3kepQ=",
+  "_location": "/zeppelin-solidity",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git://github.com/OpenZeppelin/zeppelin-solidity.git#master",
+    "rawSpec": "git://github.com/OpenZeppelin/zeppelin-solidity.git#master",
+    "saveSpec": "git://github.com/OpenZeppelin/zeppelin-solidity.git#master",
+    "fetchSpec": "git://github.com/OpenZeppelin/zeppelin-solidity.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/OpenZeppelin/zeppelin-solidity.git#8e01dd14f9211239213ae7bd4c6af92dd18d4ab7",
+  "_spec": "git://github.com/OpenZeppelin/zeppelin-solidity.git#master",
+  "_where": "/Users/andy/Projects/ventured-network/vcn-erc20",
+  "author": {
+    "name": "Manuel Araoz",
+    "email": "manuelaraoz@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenZeppelin/zeppelin-solidity/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Secure Smart Contract library for Solidity",
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "coveralls": "^2.13.1",
+    "ethereumjs-testrpc": "^4.1.1",
+    "ethereumjs-util": "^5.1.2",
+    "mocha-lcov-reporter": "^1.3.0",
+    "solidity-coverage": "^0.2.2",
+    "truffle": "^3.4.6",
+    "truffle-hdwallet-provider": "0.0.3"
+  },
+  "homepage": "https://github.com/OpenZeppelin/zeppelin-solidity",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "license": "MIT",
+  "name": "zeppelin-solidity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenZeppelin/zeppelin-solidity.git"
+  },
+  "scripts": {
+    "console": "truffle console",
+    "coverage": "scripts/coverage.sh",
+    "test": "scripts/test.sh"
+  },
+  "version": "1.3.0"
+}
